@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", system-ui;
+    box-sizing: border-box;
+    /*
+ Por padrão, a largura e a altura de um elemento são calculadas assim:
+width + padding + border = largura real de um elemento
+height + padding + border = altura real de um elemento
+
+Quando você define a largura/altura de um elemento, 
+o elemento geralmente parece maior do que o definido
+ (porque a borda e o preenchimento do elemento são adicionados
+  à largura/altura especificada do elemento).
+
+box-sizing nos permite incluir o preenchimento e a borda na largura e altura total 
+de um elemento.
+
+Se você definir o tamanho da caixa: border-box; em um elemento, 
+o preenchimento e a borda estão incluídos na largura e na altura:
+
+    */
+}
